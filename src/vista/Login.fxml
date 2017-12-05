@@ -17,7 +17,7 @@
       <SplitPane dividerPositions="0.6404682274247492" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <items>
             <BorderPane prefHeight="200.0" prefWidth="502.0">
-               <center>
+               <bottom>
                 <AnchorPane id="fondo" minHeight="160.0" minWidth="100.0" prefHeight="398.0" prefWidth="359.0" style="-fx-background-color: #795548;" BorderPane.alignment="CENTER">
                      <children>
                         <Pane layoutX="91.0" layoutY="216.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="91.0">
@@ -33,7 +33,7 @@
                         </Pane>
                      </children>
                   </AnchorPane>
-               </center>
+               </bottom>
             </BorderPane>
             <BorderPane prefHeight="200.0" prefWidth="200.0">
                <top>
@@ -61,6 +61,7 @@
                               <JFXToggleButton layoutX="14.0" prefHeight="57.0" prefWidth="108.0" text="+18?" toggleColor="#ff4081" toggleLineColor="#ff4081" />
                            </children>
                         </Pane>
+                        <Label id="logo" layoutX="82.0" prefHeight="50.0" prefWidth="96.0" AnchorPane.bottomAnchor="348.0" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                </top>

@@ -11,3 +11,9 @@
 #started:hover{
 	-fx-cursor: hand;
 }
+#logo{
+	-fx-background-image: url("../vista/assets/jm.png");
+	-fx-background-size: 50%;
+	-fx-background-repeat: no-repeat ;
+	
+}
