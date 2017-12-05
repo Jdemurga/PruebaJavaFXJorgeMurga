@@ -19,8 +19,6 @@ public class ControlFX {
 	
 	@FXML
 	public void openStage() throws IOException {
-		Stage thisStage = (Stage) started.getScene().getWindow();
-		thisStage.close();
 		menu.abrir(new Stage());
 	}
 	@FXML
