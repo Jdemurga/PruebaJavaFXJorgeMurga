@@ -17,7 +17,7 @@
       <SplitPane dividerPositions="0.6404682274247492" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <items>
             <BorderPane prefHeight="200.0" prefWidth="502.0">
-               <bottom>
+               <center>
                 <AnchorPane id="fondo" minHeight="160.0" minWidth="100.0" prefHeight="398.0" prefWidth="359.0" style="-fx-background-color: #795548;" BorderPane.alignment="CENTER">
                      <children>
                         <Pane layoutX="91.0" layoutY="216.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="91.0">
@@ -33,7 +33,7 @@
                         </Pane>
                      </children>
                   </AnchorPane>
-               </bottom>
+               </center>
             </BorderPane>
             <BorderPane prefHeight="200.0" prefWidth="200.0">
                <top>
