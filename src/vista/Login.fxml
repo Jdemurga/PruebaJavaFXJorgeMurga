@@ -61,7 +61,7 @@
                               <JFXToggleButton layoutX="14.0" prefHeight="57.0" prefWidth="108.0" text="+18?" toggleColor="#ff4081" toggleLineColor="#ff4081" />
                            </children>
                         </Pane>
-                        <Label id="logo" layoutX="82.0" prefHeight="50.0" prefWidth="96.0" AnchorPane.bottomAnchor="348.0" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="0.0" />
+                        <Label id="logo" layoutX="82.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="96.0" AnchorPane.bottomAnchor="348.0" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="39.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
                </top>
