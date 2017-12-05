@@ -9,7 +9,11 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
-
+/**
+ * @author:Jorge Murga Aragones
+ * @version:1.0
+ * 
+ *  */
 
 public class MainFX extends Application {
 	private BorderPane mypane;
