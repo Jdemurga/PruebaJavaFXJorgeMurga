@@ -5,3 +5,9 @@
 	-fx-background-repeat: no-repeat ;
 	
 }
+#MensajePantalla{
+	-fx-background-color: #795548;
+}
+#started:hover{
+	-fx-cursor: hand;
+}
