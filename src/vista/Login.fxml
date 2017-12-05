@@ -3,47 +3,67 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../control/application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControlFX">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="617.0" stylesheets="@../control/application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.ControlFX">
    <center>
-      <SplitPane dividerPositions="0.637123745819398" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <SplitPane dividerPositions="0.6404682274247492" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <items>
             <BorderPane prefHeight="200.0" prefWidth="502.0">
                <center>
-                <AnchorPane id="fondo" minHeight="160.0" minWidth="100.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: #795548;" BorderPane.alignment="CENTER">
+                <AnchorPane id="fondo" minHeight="160.0" minWidth="100.0" prefHeight="398.0" prefWidth="359.0" style="-fx-background-color: #795548;" BorderPane.alignment="CENTER">
                      <children>
-                        <Label layoutX="92.0" layoutY="216.0" prefHeight="107.0" prefWidth="239.0" text="create your owm account " textFill="WHITE" wrapText="true" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="92.0" AnchorPane.rightAnchor="46.0" AnchorPane.topAnchor="216.0">
-                           <font>
-                              <Font name="Poiret One" size="39.0" />
-                           </font>
-                        </Label>
-                        <JFXButton layoutX="162.0" layoutY="323.0" prefHeight="31.0" prefWidth="61.0" style="-fx-background-color: white;" text="Sigin" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="323.0" />
+                        <Pane layoutX="91.0" layoutY="216.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="91.0">
+                           <children>
+                              <Label layoutX="1.0" prefHeight="107.0" prefWidth="239.0" text="create your owm account " textFill="WHITE" wrapText="true">
+                                 <font>
+                                    <Font name="Poiret One" size="39.0" />
+                                 </font>
+                              </Label>
+                              <JFXButton layoutX="136.0" layoutY="116.0" prefHeight="36.0" prefWidth="85.0" style="-fx-background-color: #795548; -fx-border-radius: 10; -fx-border-color: white;" text="Sigin" textFill="#fffefe" />
+                              <JFXButton layoutX="1.0" layoutY="116.0" prefHeight="36.0" prefWidth="85.0" style="-fx-background-color: #ffffff; -fx-border-radius: 10; -fx-border-color: white;" text="About us" />
+                           </children>
+                        </Pane>
                      </children>
                   </AnchorPane>
                </center>
             </BorderPane>
             <BorderPane prefHeight="200.0" prefWidth="200.0">
-               <center>
-                <AnchorPane minHeight="160.0" minWidth="100.0" prefHeight="160.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <top>
+                <AnchorPane minHeight="160.0" minWidth="100.0" prefHeight="398.0" prefWidth="235.0" BorderPane.alignment="CENTER">
                      <children>
-                        <JFXTextField labelFloat="true" layoutX="22.0" layoutY="71.0" promptText="Last name" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="119.0" />
-                        <JFXTextField labelFloat="true" layoutX="22.0" layoutY="64.0" promptText="First name" AnchorPane.bottomAnchor="305.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="64.0" />
-                        <JFXTextField labelFloat="true" layoutX="22.0" layoutY="170.0" promptText="EMAIL" AnchorPane.bottomAnchor="199.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="170.0" />
-                        <JFXPasswordField labelFloat="true" layoutX="22.0" layoutY="215.0" promptText="Password" AnchorPane.bottomAnchor="154.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="215.0" />
-                        <JFXPasswordField labelFloat="true" layoutX="22.0" layoutY="262.0" promptText="Repeat Password" AnchorPane.bottomAnchor="107.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="262.0" />
-                        <JFXButton id="started" fx:id="started" layoutX="51.0" layoutY="330.0" onMouseClicked="#openStage" style="-fx-background-color: gray;" stylesheets="@../control/application.css" text="GET STARTED" textFill="#f2eeee" AnchorPane.bottomAnchor="37.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="51.0" AnchorPane.topAnchor="330.0">
-                           <tooltip>
-                              <Tooltip text="Open FreeSolo" />
-                           </tooltip></JFXButton>
+                        <Pane layoutX="22.0" layoutY="64.0" AnchorPane.bottomAnchor="107.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="64.0">
+                           <children>
+                              <JFXTextField focusColor="#ff4081" labelFloat="true" layoutY="55.0" promptText="Last name" />
+                              <JFXTextField focusColor="#ff4081" labelFloat="true" promptText="First name" />
+                              <JFXTextField focusColor="#ff4081" labelFloat="true" layoutY="106.0" promptText="EMAIL" />
+                              <JFXPasswordField focusColor="#ff4081" labelFloat="true" layoutY="151.0" promptText="Password" />
+                              <JFXPasswordField focusColor="#ff4081" labelFloat="true" layoutY="198.0" promptText="Repeat Password" />
+                           </children>
+                        </Pane>
+                        <Pane layoutX="-23.0" layoutY="326.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="326.0">
+                           <children>
+                              <JFXButton id="started" fx:id="started" layoutX="117.0" layoutY="10.0" onMouseClicked="#openStage" prefHeight="38.0" prefWidth="95.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-border-color: #ff4081;" stylesheets="@../control/application.css" text="GET STARTED" textFill="#ff4081">
+                                 <tooltip>
+                                    <Tooltip text="Open FreeSolo" />
+                                 </tooltip>
+                                 <font>
+                                    <Font size="12.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXToggleButton layoutX="14.0" prefHeight="57.0" prefWidth="108.0" text="+18?" toggleColor="#ff4081" toggleLineColor="#ff4081" />
+                           </children>
+                        </Pane>
                      </children>
                   </AnchorPane>
-               </center>
+               </top>
             </BorderPane>
         </items>
       </SplitPane>
